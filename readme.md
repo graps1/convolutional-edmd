@@ -1,5 +1,5 @@
-There are two main files in this repository:
-- `ks2d.ipynb` contains an implementation of the convolutional EDMD approach for the two-dimensional Kuramoto-Sivashinsky equation, using the fast Fourier transform. 
+There are three main files in this repository:
+- `ks2d.ipynb` contains an implementation of the convolutional EDMD approach for the two-dimensional Kuramoto-Sivashinsky equation, using the fast Fourier transform. It also plots the figures in the paper.
 - `ks2d_detailed.ipynb` contains a slower implementation that computes the same stuff as `ks2d.ipynb`. It doesn't make use of the FFT, but it is much more instructive and closer to the details given in the paper.
 - `spring_system.ipynb` contains code for the symmetric spring system of four nodes.
 
